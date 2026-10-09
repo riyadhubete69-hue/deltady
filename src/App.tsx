@@ -222,7 +222,7 @@ function Home() {
               <div className="socials-grid">
                 <a className="social-card" href={discordInvite} target="_blank" rel="noreferrer" data-testid="link-social-discord"><span className="social-icon"><MessageCircle /></span><span><b>Discord</b><small>Delta Dynamics community</small></span><ArrowUpRight /></a>
                 <a className="social-card" href="https://instagram.com/v21xr" target="_blank" rel="noreferrer" data-testid="link-social-instagram"><span className="social-icon"><Instagram /></span><span><b>Instagram</b><small>@v21xr</small></span><ArrowUpRight /></a>
-                <a className="social-card" href="https://www.facebook.com/share/17ytdzW2WH/" target="_blank" rel="noreferrer" data-testid="link-social-facebook"><span className="social-icon"><Facebook /></span><span><b>Facebook</b><small>Riyad</small></span><ArrowUpRight /></a>
+                <a className="social-card" href="https://www.facebook.com/v17xr" target="_blank" rel="noreferrer" data-testid="link-social-facebook"><span className="social-icon"><Facebook /></span><span><b>Facebook</b><small>Riyad</small></span><ArrowUpRight /></a>
                 <a className="social-card" href="https://youtube.com/deltadynamicsofficial" target="_blank" rel="noreferrer" data-testid="link-social-youtube"><span className="social-icon"><Youtube /></span><span><b>YouTube</b><small>Delta Dynamics Official</small></span><ArrowUpRight /></a>
               </div>
             </section>
