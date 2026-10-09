@@ -61,7 +61,7 @@ function MusicWidget() {
           <span>{timeLabel(duration)}</span>
         </div>
       </div>
-      {!available && <p className="widget-status" role="status" data-testid="status-music">Music is inactive until public/music.mp3 is added.</p>}
+      {!available && <p className="widget-status" role="status" data-testid="status-music">Add a track to start listening.</p>}
       <audio
         ref={audioRef}
         src={publicAsset('music.mp3')}
@@ -237,9 +237,9 @@ function Home() {
                   <p><span>ASTEROID</span> Anti-nuke protection built around safer server spaces.</p>
                   <p><span>IRIS</span> Music playback and playlists made for listening together.</p>
                 </div>
-                <div className="widget-art" aria-label="Iris and Asteroid project artwork">
-                  <img className="widget-art-main" src={publicAsset('images/iris-avatar.png')} alt="Iris project artwork" />
-                  <div className="widget-art-caption"><span>IRIS / MUSIC FOR THE MOMENT</span><img src={publicAsset('images/asteroid-lofi-avatar.png')} alt="" /></div>
+                <div className="widget-art" aria-label="Music player artwork">
+                  <img className="widget-art-main" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/images-BiPPyPmgEcjKmOdEX7KgX2E3Ic35V6.jpeg" alt="A dim forest path surrounded by tall trees" />
+                  <div className="widget-art-caption"><span>RIYAD / MUSIC FOR THE MOMENT</span><img src={publicAsset('images/asteroid-lofi-avatar.png')} alt="" /></div>
                 </div>
                 <MusicWidget />
               </div>
