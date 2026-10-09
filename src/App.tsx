@@ -6,7 +6,8 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import NotFound from '@/pages/not-found';
 import {
   ArrowRight, ArrowUpRight, AudioLines, Bot, ChevronRight, Disc3, ExternalLink,
-  Facebook, Instagram, Menu, MessageCircle, Music2, Play, Pause, Shield, Users, X, Youtube,
+  Facebook, Heart, Instagram, Menu, MessageCircle, Pause, Play, Smile, Terminal,
+  Users, Wrench, X, Youtube,
 } from 'lucide-react';
 import { Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 
@@ -60,7 +61,7 @@ function MusicWidget() {
       </button>
       <div className="music-player">
         <div className="disc" aria-hidden="true"><Disc3 size={19} /></div>
-        <div className="track-meta"><strong>Riyad’s listening corner</strong><small>{available ? 'Local track · looping' : 'Waiting for music.mp3'}</small></div>
+        <div className="track-meta"><strong>Riyad's listening corner</strong><small>{available ? 'Local track · looping' : 'Waiting for music.mp3'}</small></div>
         <button className="play-button" type="button" onClick={togglePlayback} disabled={!available} aria-label={playing ? 'Pause music' : available ? 'Play music' : 'Music track is not available yet'} data-testid="button-music-toggle">
           {playing ? <Pause size={14} fill="currentColor" /> : <Play size={14} fill="currentColor" />}
         </button>
@@ -199,12 +200,11 @@ function Home() {
             <section className="section reveal" id="skills" aria-labelledby="skills-title" data-testid="section-skills">
               <div className="section-heading"><h2 id="skills-title">Skills</h2><span>project capabilities</span></div>
               <div className="skills-grid">
-                <div className="skill-item" data-testid="skill-discord.py"><span className="skill-symbol"><Bot size={14} /></span>Discord bots</div>
-                <div className="skill-item" data-testid="skill-python"><span className="skill-symbol"><Shield size={14} /></span>Server protection · anti-nuke</div>
-                <div className="skill-item" data-testid="skill-nodeJS"><span className="skill-symbol"><Users size={14} /></span>Community updates</div>
-                <div className="skill-item" data-testid="skill-Web Design"><span className="skill-symbol"><Music2 size={14} /></span>Music playback</div>
-                <div className="skill-item" data-testid="skill-Community Management"><span className="skill-symbol"><Disc3 size={14} /></span>Shared playlists</div>
-                <div className="skill-item" data-testid="skill-Flirting"><span className="skill-symbol"><ArrowRight size={14} /></span>Bot dashboard</div>
+                <div className="skill-item" data-testid="skill-discord-py"><span className="skill-symbol"><Bot size={14} /></span>Discord.py</div>
+                <div className="skill-item" data-testid="skill-python"><span className="skill-symbol"><Terminal size={14} /></span>Python</div>
+                <div className="skill-item" data-testid="skill-nodejs"><span className="skill-symbol"><Wrench size={14} /></span>NodeJS</div>
+                <div className="skill-item" data-testid="skill-community-management"><span className="skill-symbol"><Users size={14} /></span>Community Management</div>
+                <div className="skill-item" data-testid="skill-flirting"><span className="skill-symbol"><Heart size={14} /></span>Flirting</div>
               </div>
             </section>
 
