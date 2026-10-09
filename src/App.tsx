@@ -47,8 +47,17 @@ function MusicWidget() {
     return `${Math.floor(value / 60)}:${String(Math.floor(value % 60)).padStart(2, '0')}`;
   };
 
+  useEffect(() => {
+    if (!available || !audioRef.current) return;
+    audioRef.current.play().catch(() => setPlaying(false));
+  }, [available]);
+
   return (
     <div className="widget-player-wrap">
+      <button className="floating-music-button" type="button" onClick={togglePlayback} disabled={!available} aria-label={playing ? 'Pause music' : 'Play music'} data-testid="button-floating-music-toggle">
+        {playing ? <Pause size={17} fill="currentColor" /> : <Play size={17} fill="currentColor" />}
+        <span>{playing ? 'Pause' : 'Play'} music</span>
+      </button>
       <div className="music-player">
         <div className="disc" aria-hidden="true"><Disc3 size={19} /></div>
         <div className="track-meta"><strong>Riyad’s listening corner</strong><small>{available ? 'Local track · looping' : 'Waiting for music.mp3'}</small></div>
