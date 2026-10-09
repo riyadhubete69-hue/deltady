@@ -199,12 +199,12 @@ function Home() {
             <section className="section reveal" id="skills" aria-labelledby="skills-title" data-testid="section-skills">
               <div className="section-heading"><h2 id="skills-title">Skills</h2><span>project capabilities</span></div>
               <div className="skills-grid">
-                <div className="skill-item" data-testid="skill-discord-bots"><span className="skill-symbol"><Bot size={14} /></span>Discord bots</div>
-                <div className="skill-item" data-testid="skill-server-protection"><span className="skill-symbol"><Shield size={14} /></span>Server protection · anti-nuke</div>
-                <div className="skill-item" data-testid="skill-community"><span className="skill-symbol"><Users size={14} /></span>Community updates</div>
-                <div className="skill-item" data-testid="skill-music"><span className="skill-symbol"><Music2 size={14} /></span>Music playback</div>
-                <div className="skill-item" data-testid="skill-playlists"><span className="skill-symbol"><Disc3 size={14} /></span>Shared playlists</div>
-                <div className="skill-item" data-testid="skill-dashboard"><span className="skill-symbol"><ArrowRight size={14} /></span>Bot dashboard</div>
+                <div className="skill-item" data-testid="skill-discord.py"><span className="skill-symbol"><Bot size={14} /></span>Discord bots</div>
+                <div className="skill-item" data-testid="skill-python"><span className="skill-symbol"><Shield size={14} /></span>Server protection · anti-nuke</div>
+                <div className="skill-item" data-testid="skill-nodeJS"><span className="skill-symbol"><Users size={14} /></span>Community updates</div>
+                <div className="skill-item" data-testid="skill-Web Design"><span className="skill-symbol"><Music2 size={14} /></span>Music playback</div>
+                <div className="skill-item" data-testid="skill-Community Management"><span className="skill-symbol"><Disc3 size={14} /></span>Shared playlists</div>
+                <div className="skill-item" data-testid="skill-Flirting"><span className="skill-symbol"><ArrowRight size={14} /></span>Bot dashboard</div>
               </div>
             </section>
 
@@ -232,7 +232,7 @@ function Home() {
                 <a className="social-card" href={discordInvite} target="_blank" rel="noreferrer" data-testid="link-social-discord"><span className="social-icon"><MessageCircle /></span><span><b>Discord</b><small>Delta Dynamics community</small></span><ArrowUpRight /></a>
                 <a className="social-card" href="https://instagram.com/v21xr" target="_blank" rel="noreferrer" data-testid="link-social-instagram"><span className="social-icon"><Instagram /></span><span><b>Instagram</b><small>@v21xr</small></span><ArrowUpRight /></a>
                 <a className="social-card" href="https://www.facebook.com/v17xr" target="_blank" rel="noreferrer" data-testid="link-social-facebook"><span className="social-icon"><Facebook /></span><span><b>Facebook</b><small>Riyad</small></span><ArrowUpRight /></a>
-                <a className="social-card" href="https://youtube.com/deltadynamicsofficial" target="_blank" rel="noreferrer" data-testid="link-social-youtube"><span className="social-icon"><Youtube /></span><span><b>YouTube</b><small>Delta Dynamics Official</small></span><ArrowUpRight /></a>
+                <a className="social-card" href="https://youtube.com/@deltadynamicsofficial" target="_blank" rel="noreferrer" data-testid="link-social-youtube"><span className="social-icon"><Youtube /></span><span><b>YouTube</b><small>Delta Dynamics Official</small></span><ArrowUpRight /></a>
               </div>
             </section>
 
