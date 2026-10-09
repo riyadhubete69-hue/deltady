@@ -204,7 +204,7 @@ function Home() {
                 <div className="skill-item" data-testid="skill-python"><span className="skill-symbol"><Terminal size={14} /></span>Python</div>
                 <div className="skill-item" data-testid="skill-nodejs"><span className="skill-symbol"><Wrench size={14} /></span>NodeJS</div>
                 <div className="skill-item" data-testid="skill-community-management"><span className="skill-symbol"><Users size={14} /></span>Community Management</div>
-                <div className="skill-item" data-testid="skill-flirting"><span className="skill-symbol"><Heart size={14} /></span>Flirting</div>
+                <div className="skill-item" data-testid="skill-flirting? >-<"><span className="skill-symbol"><Heart size={14} /></span>Flirting</div>
               </div>
             </section>
 
